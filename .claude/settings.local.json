@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/jimja/github_repos/Python/TokenTally-v1.0 log --oneline -10)",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "Bash(git -C /c/Users/jimja/github_repos/Python/TokenTally-v1.0 log --all --format=\"%H %an %ad %s\" --date=short)",
+      "Bash(git -C /c/Users/jimja/github_repos/Python/TokenTally-v1.0 show b6c15a9 --name-only)",
+      "Bash(git -C /c/Users/jimja/github_repos/Python/TokenTally-v1.0 show 43a96b8 --name-only)",
+      "Bash(python -m venv:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(python -c:*)"
+    ]
+  }
+}
